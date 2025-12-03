@@ -8,11 +8,11 @@ our <a href="./src/TensorFlowFlexUNet.py">TensorFlowFlexUNet</a>
  (<b>TensorFlow Flexible UNet Image Segmentation Model for Multiclass</b>)
 , and a 512x512  pixels 
 <a href="https://drive.google.com/file/d/1ErOkrNOnOOvyIP16YuOunXsICZ9Uis1u/view?usp=sharing">
-<b>Tiled-Vegas-City-Road-ImageMask-Dataset.zip </b></a>
+<b>Tiled-Vegas-City-Road-ImageMask-Dataset.zip</b></a>
 which was derived by us from 
 <a href="https://www.kaggle.com/datasets/yash0309/aerial-images-of-vegas-city">
 <b>road_network_Detection_Vegas_city_Dataset</b> 
-</a> on the kaggle web site 
+</a> on the kaggle web site.
 <br><br>
 <b>Divide-and-Conquer Strategy</b><br>
 The kaggle web site <b>Vegas-City-Road</b> dataset features a mask pixel size of 1300 x 1300 pixels, which is different from the corresponding image pixel
@@ -90,7 +90,7 @@ CC BY-SA 4.0
 </h3>
  If you would like to train this Vegas-City Road Segmentation model by yourself,
  please download <a href="https://drive.google.com/file/d/1ErOkrNOnOOvyIP16YuOunXsICZ9Uis1u/view?usp=sharing">
- <b>Tiled-Vegas-City-Road-ImageMask-Dataset.zip (4.4GB)</b></a>
+ <b>Tiled-Vegas-City-Road-ImageMask-Dataset.zip</b></a>
 on the google drive, expand the downloaded, and put it under dataset folder to be:
 <pre>
 ./dataset
@@ -339,12 +339,9 @@ Tiled dataset appear similar to the ground truth masks, but they lack precision 
 <td><img src="./projects/TensorFlowFlexUNet/Vegas-City-Road/mini_test/masks/10252.png" width="320" height="auto"></td>
 <td><img src="./projects/TensorFlowFlexUNet/Vegas-City-Road/mini_test_output_tiled/10252.png" width="320" height="auto"></td>
 </tr>
-
-
 </table>
 <hr>
 <br>
-
 <h3>
 References
 </h3>
@@ -384,7 +381,6 @@ https://openaccess.thecvf.com/content_WACV_2020/papers/Van_Etten_City-Scale_Road
 </a>
 <br>
 <br>
-
 <b>6. TensorFlow-FlexUNet-Image-Segmentation-Model</b><br>
 Toshiyuki Arai antillia.com <br>
 <a href="https://github.com/sarah-antillia/TensorFlow-FlexUNet-Image-Segmentation-Model">
